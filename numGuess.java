@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class numGuess{
-    //in this program there are 5 levels , in  each level the number of chances decreases. level 1 has 10 chance , level 2 has 8 , level 3 has 6 level 4 has 4 , level 5 has 2chances.
+    //in this program there are 5 levels , in  each level the number of chances decreases. level 1 has 10 chance , level 2 has 8 , level 3 has 6 , level 4 has 4 , level 5 has 2 chances.
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int level = 1;

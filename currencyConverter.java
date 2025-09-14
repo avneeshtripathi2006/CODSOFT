@@ -70,30 +70,34 @@ public class currencyConverter {
     }
 }
 
-
-/* Add the JSON Library (org.json)
-Java does not include a JSON parser by default. We’ll need org.json (also called json.jar).
-
-➤ Method 1: Download and Add Manually (Easiest in Codespaces)
-Run this in the terminal inside your Codespace:
-
-bash
-Copy
-Edit
-curl -O https://repo1.maven.org/maven2/org/json/json/20210307/json-20210307.jar
-Now you have the jar in your workspace.
-
-✅ 4. Compile and Run the Java File
-Use this command in the terminal to compile:
-
-bash
-Copy
-Edit
-javac -cp .:json-20210307.jar CurrencyConverter.java
-Then run it:
-
-bash
-Copy
-Edit
-java -cp .:json-20210307.jar CurrencyConverter
-✅ Note for Windows users: If you're on Windows or using the Windows shell in Codespaces, replace : with ; in the classpath.*/
+/*
+ * Add the JSON Library (org.json)
+ * Java does not include a JSON parser by default. We’ll need org.json (also
+ * called json.jar).
+ * 
+ * ➤ Method 1: Download and Add Manually (Easiest in Codespaces)
+ * Run this in the terminal inside your Codespace:
+ * 
+ * bash
+ * Copy
+ * Edit
+ * curl -O
+ * https://repo1.maven.org/maven2/org/json/json/20210307/json-20210307.jar
+ * Now you have the jar in your workspace.
+ * 
+ * ✅ 4. Compile and Run the Java File
+ * Use this command in the terminal to compile:
+ * 
+ * bash
+ * Copy
+ * Edit
+ * javac -cp .:json-20210307.jar currencyConverter.java
+ * Then run it:
+ * 
+ * bash
+ * Copy
+ * Edit
+ * java -cp .:json-20210307.jar currencyConverter
+ * ✅ Note for Windows users: If you're on Windows or using the Windows shell in
+ * Codespaces, replace : with ; in the classpath.
+ */

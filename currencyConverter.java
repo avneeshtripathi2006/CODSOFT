@@ -91,13 +91,28 @@ public class currencyConverter {
  * bash
  * Copy
  * Edit
- * javac -cp .:json-20210307.jar currencyConverter.java
+ * 
+ * 
+ * 
+ * javac -cp .:json-20210307.jar currencyConverter.java   (for linux)
+ * 
+ * javac -cp ".;json-20210307.jar" currencyConverter.java   (for windows)
+ * 
+ *   
  * Then run it:
  * 
  * bash
  * Copy
  * Edit
- * java -cp .:json-20210307.jar currencyConverter
+ * 
+ * 
+ * 
+ * java -cp .:json-20210307.jar currencyConverter  (for linux)
+ * 
+ * java -cp ".;json-20210307.jar" currencyConverter   (for windows)
+ * 
+ * 
+ * 
  * ✅ Note for Windows users: If you're on Windows or using the Windows shell in
  * Codespaces, replace : with ; in the classpath.
  */
